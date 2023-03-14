@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-roboto: Roboto;
+  --font-inter: Inter;
+  --font-merriweather: Merriweather;
+
+  /* font sizes */
+  --font-size-xl: 20px;
+  --font-size-xs: 12px;
+  --font-size-181xl: 200px;
+  --font-size-base: 16px;
+  --font-size-21xl: 40px;
+  --font-size-2xs: 11px;
+
+  /* Colors */
+  --color-azure: #effeff;
+  --vert-bleu: #012e40;
+  --color-gray: #757575;
+  --color-white: #fff;
+  --color-mediumseagreen-100: #00c16e;
+  --color-palegoldenrod: #ffe8a3;
+
+  /* border radiuses */
+  --br-5xl: 24px;
+  --br-9981xl: 10000px;
+  --br-7xs: 6px;
+  --br-lgi: 19px;
+}
