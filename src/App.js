@@ -5,7 +5,11 @@ import {
   useLocation,
 } from "react-router-dom";
 import HOME from "./pages/HOME";
+import EMPLOYEES from "./pages/EMPLOYEES";
+import ACCOUNTABILITYSYSTEM from "./pages/ACCOUNTABILITYSYSTEM";
 import MCP from "./pages/MCP";
+import COMMUNICATION from "./pages/COMMUNICATION";
+import BACKOFFICERMAINPAGE from "./pages/BACKOFFICERMAINPAGE";
 import { useEffect } from "react";
 
 function App() {
@@ -28,7 +32,23 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/employees":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/accountability-system":
+        title = "";
+        metaDescription = "";
+        break;
       case "/mcp":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/communication":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/back-officer-main-page":
         title = "";
         metaDescription = "";
         break;
@@ -51,7 +71,11 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<HOME />} />
+      <Route path="/employees" element={<EMPLOYEES />} />
+      <Route path="/accountability-system" element={<ACCOUNTABILITYSYSTEM />} />
       <Route path="/mcp" element={<MCP />} />
+      <Route path="/communication" element={<COMMUNICATION />} />
+      <Route path="/back-officer-main-page" element={<BACKOFFICERMAINPAGE />} />
     </Routes>
   );
 }

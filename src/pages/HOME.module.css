@@ -16,7 +16,6 @@
   position: absolute;
   top: 908px;
   left: 114px;
-  font-size: 10px;
   letter-spacing: -0.02em;
   line-height: 150%;
   display: flex;
@@ -28,8 +27,8 @@
   position: relative;
   border-radius: var(--br-7xs);
   background-color: var(--color-mediumseagreen-100);
-  width: 429.88px;
-  height: 563.53px;
+  width: 435px;
+  height: 564px;
 }
 .urbanWasteCollectionContainer {
   position: absolute;
@@ -66,7 +65,7 @@
   display: inline-block;
   width: 202px;
   height: 77px;
-  font-size: 24px;
+  font-size: var(--font-size-5xl);
 }
 .u,
 .w {
@@ -117,11 +116,12 @@
 }
 .shapeWithTextParent {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 429.88px;
+  top: -3px;
+  left: 4px;
+  width: 430px;
   height: 567px;
   text-align: left;
+  font-size: var(--font-size-xl);
   color: var(--color-white);
 }
 .forgottenPassword {
@@ -134,7 +134,7 @@
   letter-spacing: -0.01em;
   line-height: 150%;
   font-weight: 500;
-  color: var(--color-gray);
+  color: var(--color-gray-300);
   display: inline-block;
   width: 430px;
   height: 24px;
@@ -152,25 +152,85 @@
   left: 93px;
 }
 .inputfilledWithIcon {
-  top: 603px;
+  top: 621px;
   left: 55px;
 }
-.username {
+.removeredeyeIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.adornment {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.activeState,
+.content,
+.input {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.content {
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+}
+.activeState,
+.input {
+  flex-direction: column;
+  padding: 9px 0 7px;
+  align-items: flex-start;
+}
+.input {
+  border-radius: var(--br-9xs) var(--br-9xs) 0 0;
+  background-color: rgba(0, 0, 0, 0.09);
+  padding: 0 12px;
+  justify-content: center;
+}
+.underlineIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 2px;
+  flex-shrink: 0;
+}
+.filledWithIcon {
   position: absolute;
-  top: 590px;
+  top: 698px;
+  left: 54px;
+  width: 309px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.password {
+  position: absolute;
+  top: 686px;
   left: 57px;
+  font-size: 15px;
   letter-spacing: 0.15px;
   line-height: 12px;
-  font-family: var(--font-roboto);
-  color: #1976d2;
+  color: var(--color-mediumseagreen-100);
   text-align: left;
+}
+.inputfilled {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 635px;
+  left: 54px;
 }
 .homeChild,
 .main {
   position: absolute;
   top: 0;
-}
-.main {
   left: 0;
   width: 430px;
   height: 940px;
@@ -189,7 +249,7 @@
   width: 100%;
   height: 932px;
   text-align: center;
-  font-size: var(--font-size-xl);
+  font-size: var(--font-size-3xs);
   color: #0fc577;
   font-family: var(--font-inter);
 }

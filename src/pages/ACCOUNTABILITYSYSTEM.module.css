@@ -1,0 +1,381 @@
+.accountabilitySystemChild {
+  position: absolute;
+  top: 113px;
+  left: 0;
+  background-color: var(--color-mediumseagreen-200);
+  width: 430px;
+  height: 208px;
+}
+.accountabilitySystemItem {
+  position: absolute;
+  top: 135px;
+  left: 8px;
+  border-radius: 36px;
+  width: 150px;
+  height: 164px;
+  object-fit: cover;
+}
+.nameTrnhTrnPhngTn {
+  margin: 0;
+}
+.janitor,
+.nameTrnhTrnContainer {
+  font-family: var(--font-inter);
+}
+.nameTrnhTrnContainer {
+  position: absolute;
+  top: 114px;
+  left: 170px;
+  font-size: var(--font-size-base);
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  width: 257px;
+  height: 206px;
+}
+.accountabilitySystemInner,
+.rectangleDiv {
+  position: absolute;
+  top: 329px;
+  background-color: var(--color-aquamarine);
+  height: 1471px;
+}
+.accountabilitySystemInner {
+  left: 0;
+  border-radius: 12px;
+  width: 344px;
+}
+.rectangleDiv {
+  left: 353px;
+  border-radius: var(--br-2xs);
+  width: 99px;
+}
+.accountabilitySystemChild1,
+.jobDescription {
+  position: absolute;
+  top: 338px;
+  left: 8px;
+  width: 323px;
+}
+.accountabilitySystemChild1 {
+  border-radius: var(--br-2xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) inset;
+  height: 57px;
+}
+.jobDescription {
+  font-size: var(--font-size-xl);
+  letter-spacing: -0.01em;
+  line-height: 150%;
+  display: flex;
+  font-family: var(--font-inter);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 54px;
+}
+.accountabilitySystemChild2 {
+  position: absolute;
+  top: 338px;
+  left: 362px;
+  border-radius: var(--br-2xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) inset;
+  width: 61px;
+  height: 57px;
+}
+.status,
+.taskBoxChild {
+  position: absolute;
+  left: 353px;
+}
+.status {
+  top: 340px;
+  font-size: var(--font-size-sm);
+  letter-spacing: -0.01em;
+  line-height: 150%;
+  display: flex;
+  font-family: var(--font-inter);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 77px;
+  height: 54px;
+}
+.taskBoxChild {
+  top: 3px;
+  border-radius: var(--br-2xs);
+  background-color: var(--color-red);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) inset;
+  width: 61px;
+  height: 99px;
+}
+.taskBoxItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-100);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 323px;
+  height: 103px;
+}
+.thayTaBe {
+  position: absolute;
+  top: 6px;
+  left: 10px;
+  letter-spacing: -0.01em;
+  line-height: 150%;
+  display: inline-block;
+  width: 304px;
+  height: 88px;
+}
+.notDoneTxtContainer {
+  line-break: anywhere;
+  width: 100%;
+}
+.notDone {
+  position: absolute;
+  top: 14px;
+  left: 363px;
+  font-size: var(--font-size-3xs);
+  letter-spacing: -0.01em;
+  line-height: 150%;
+  display: flex;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+  align-items: center;
+  width: 42px;
+  height: 77px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.taskBox,
+.taskBoxInner {
+  position: absolute;
+  top: 405px;
+  left: 8px;
+  width: 414px;
+  height: 103px;
+}
+.taskBoxInner {
+  top: 3px;
+  left: 353px;
+  border-radius: var(--br-2xs);
+  background-color: var(--color-gold);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) inset;
+  width: 61px;
+  height: 99px;
+}
+.inProgress {
+  position: absolute;
+  top: 14px;
+  left: 354px;
+  font-size: var(--font-size-3xs);
+  letter-spacing: -0.01em;
+  line-height: 150%;
+  display: flex;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+  align-items: center;
+  width: 60px;
+  height: 77px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.taskBox1,
+.taskBoxChild2 {
+  position: absolute;
+  top: 521px;
+  left: 8px;
+  width: 414px;
+  height: 103px;
+}
+.taskBoxChild2 {
+  top: 3px;
+  left: 353px;
+  border-radius: var(--br-2xs);
+  background-color: var(--color-mediumseagreen-200);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) inset;
+  width: 61px;
+  height: 99px;
+}
+.done1 {
+  position: absolute;
+  top: 14px;
+  left: 354px;
+  font-size: var(--font-size-3xs);
+  letter-spacing: -0.01em;
+  line-height: 150%;
+  display: flex;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 77px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.notDone1,
+.taskBox2 {
+  position: absolute;
+  top: 637px;
+  left: 8px;
+  width: 414px;
+  height: 103px;
+}
+.notDone1 {
+  top: 14px;
+  left: 353px;
+  font-size: var(--font-size-3xs);
+  letter-spacing: -0.01em;
+  line-height: 150%;
+  display: flex;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+  align-items: center;
+  width: 61px;
+  height: 77px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.taskBox3,
+.taskBox4 {
+  position: absolute;
+  top: 753px;
+  left: 8px;
+  width: 414px;
+  height: 103px;
+}
+.taskBox4 {
+  top: 869px;
+}
+.groupChild,
+.taskBox5,
+.taskBox6,
+.taskBox7,
+.taskBox8 {
+  position: absolute;
+  top: 985px;
+  left: 8px;
+  width: 414px;
+  height: 103px;
+}
+.groupChild,
+.taskBox6,
+.taskBox7,
+.taskBox8 {
+  top: 1101px;
+}
+.groupChild,
+.taskBox7,
+.taskBox8 {
+  top: 1217px;
+}
+.groupChild,
+.taskBox8 {
+  top: 1333px;
+}
+.groupChild {
+  top: 0;
+  left: 15px;
+  width: 461px;
+  height: 123px;
+}
+.groupChild1,
+.groupInner,
+.groupItem {
+  position: absolute;
+  top: 592.51px;
+  left: 61.1px;
+  width: 3px;
+  height: 3px;
+}
+.groupChild1,
+.groupInner {
+  top: 0;
+  left: 433.81px;
+  height: 1.89px;
+}
+.groupChild1 {
+  left: 0;
+  border-radius: var(--br-4xl);
+  background-color: var(--color-mediumseagreen-100);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) inset;
+  width: 90px;
+  height: 90px;
+}
+.c,
+.u,
+.w {
+  position: absolute;
+  top: 6px;
+  left: 15px;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  display: inline-block;
+  width: 59.73px;
+  height: 77.33px;
+}
+.c,
+.w {
+  top: 15.58px;
+  left: 36.96px;
+  width: 53.33px;
+}
+.c {
+  top: 28.42px;
+  left: 25.98px;
+  width: 34.87px;
+}
+.logo,
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90.29px;
+  height: 105.76px;
+}
+.logo {
+  top: 15px;
+  left: 30px;
+}
+.accountabilitySystem1 {
+  position: absolute;
+  top: 26px;
+  left: 152px;
+  font-size: var(--font-size-5xl);
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  display: inline-block;
+  font-family: var(--font-inter);
+  color: var(--color-mediumseagreen-300);
+  text-align: center;
+  width: 237px;
+  height: 75px;
+}
+.vectorParent {
+  position: absolute;
+  top: 0;
+  left: -15px;
+  width: 461px;
+  height: 594.01px;
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+  font-family: var(--font-merriweather);
+}
+.accountabilitySystem {
+  position: relative;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-gray-200);
+  width: 100%;
+  height: 1750px;
+  overflow: hidden;
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-darkgray);
+  font-family: var(--font-lato);
+}

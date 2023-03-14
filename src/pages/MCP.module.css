@@ -2,7 +2,7 @@
   position: absolute;
   top: -8px;
   left: -7.83px;
-  border-radius: 4px;
+  border-radius: var(--br-9xs);
   width: 376.11px;
   height: 219.48px;
   background-image: url(/public/frame-14@3x.png);
@@ -107,41 +107,39 @@
   top: 115px;
   left: 105px;
 }
-.mcpInfo {
-  position: absolute;
-  top: 334px;
-  width: 167px;
-  height: 155px;
-}
 .mcpInfo,
-.mcpInfo1,
-.mcpInfo2 {
-  left: 233px;
-}
 .mcpInfo1,
 .mcpInfo2,
 .mcpInfo3,
 .mcpInfo4,
 .mcpInfo5 {
   position: absolute;
+  top: 334px;
+  left: 233px;
   width: 167px;
   height: 155px;
 }
-.mcpInfo1 {
+.mcpInfo1,
+.mcpInfo2,
+.mcpInfo3,
+.mcpInfo4,
+.mcpInfo5 {
   top: 503px;
 }
-.mcpInfo2 {
+.mcpInfo2,
+.mcpInfo3,
+.mcpInfo4,
+.mcpInfo5 {
   top: 672px;
 }
-.mcpInfo3 {
+.mcpInfo3,
+.mcpInfo4,
+.mcpInfo5 {
   top: 333px;
   left: 30px;
 }
 .mcpInfo4,
 .mcpInfo5 {
-  left: 30px;
-}
-.mcpInfo4 {
   top: 502px;
 }
 .mcpInfo5 {
@@ -177,16 +175,14 @@
 }
 .c,
 .logo {
-  text-align: center;
-  font-size: var(--font-size-21xl);
-  color: var(--color-mediumseagreen-100);
-  font-family: var(--font-merriweather);
-}
-.logo {
   top: 0;
   left: 3.43px;
   width: 31.6px;
   height: 118.64px;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-mediumseagreen-100);
+  font-family: var(--font-merriweather);
 }
 .c {
   top: 13px;
@@ -208,6 +204,6 @@
   overflow: hidden;
   text-align: left;
   font-size: var(--font-size-base);
-  color: var(--color-gray);
+  color: var(--color-gray-300);
   font-family: var(--font-inter);
 }

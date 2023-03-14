@@ -1,0 +1,261 @@
+.communicationChild,
+.groupChild {
+  position: absolute;
+  top: 200px;
+  left: 0;
+  background-color: var(--color-white);
+  width: 430px;
+  height: 1459px;
+}
+.groupChild {
+  top: 0;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-whitesmoke);
+  width: 403px;
+  height: 80px;
+}
+.janitor,
+.khoa,
+.text,
+.tn {
+  position: absolute;
+  letter-spacing: -0.01em;
+  line-height: 150%;
+  display: inline-block;
+}
+.text {
+  top: 23.55px;
+  left: 7px;
+  font-size: var(--font-size-5xs);
+  font-weight: 500;
+  text-align: center;
+  width: 348.99px;
+  height: 16.97px;
+}
+.janitor,
+.khoa,
+.tn {
+  width: 214.76px;
+}
+.khoa {
+  top: 10px;
+  left: 86.57px;
+  font-size: var(--font-size-xl);
+  color: var(--color-mediumseagreen-200);
+  height: 21.21px;
+}
+.janitor,
+.tn {
+  top: 34px;
+  left: 86px;
+  font-weight: 500;
+  color: var(--color-gray-300);
+}
+.tn {
+  top: 49.23px;
+  left: 87.57px;
+  color: var(--color-gray-400);
+  height: 21.21px;
+}
+.chatBox,
+.chatBox1,
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 403px;
+  height: 80px;
+}
+.chatBox,
+.chatBox1 {
+  top: 310px;
+  left: 14px;
+}
+.chatBox1 {
+  top: 880px;
+}
+.chatBox2,
+.chatBox3,
+.chatBox4,
+.chatBox5,
+.chatBox6,
+.chatBox7 {
+  position: absolute;
+  top: 405px;
+  left: 14px;
+  width: 403px;
+  height: 80px;
+}
+.chatBox3,
+.chatBox4,
+.chatBox5,
+.chatBox6,
+.chatBox7 {
+  top: 975px;
+}
+.chatBox4,
+.chatBox5,
+.chatBox6,
+.chatBox7 {
+  top: 500px;
+}
+.chatBox5,
+.chatBox6,
+.chatBox7 {
+  top: 1070px;
+}
+.chatBox6,
+.chatBox7 {
+  top: 595px;
+}
+.chatBox7 {
+  top: 1165px;
+}
+.chatBox10,
+.chatBox11,
+.chatBox8,
+.chatBox9,
+.searchBox {
+  position: absolute;
+  top: 690px;
+  left: 14px;
+  width: 403px;
+  height: 80px;
+}
+.chatBox10,
+.chatBox11,
+.chatBox9,
+.searchBox {
+  top: 1260px;
+}
+.chatBox10,
+.chatBox11,
+.searchBox {
+  top: 785px;
+}
+.chatBox11,
+.searchBox {
+  top: 1355px;
+}
+.searchBox {
+  top: 246px;
+  border-radius: 20px;
+  background-color: var(--color-aquamarine);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) inset;
+  height: 49px;
+}
+.shapeWithText,
+.shapeWithText1 {
+  position: relative;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-mediumseagreen-100);
+  width: 437px;
+  height: 160px;
+}
+.shapeWithText1 {
+  background-color: var(--color-mediumseagreen-200);
+  height: 81px;
+}
+.channel {
+  margin: 0;
+}
+.communicationChannel {
+  position: absolute;
+  top: 38px;
+  left: 147px;
+  letter-spacing: -0.01em;
+  line-height: 150%;
+  display: inline-block;
+  width: 295px;
+  height: 73px;
+}
+.id696969 {
+  margin: 0;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+}
+.trnKhoaIdContainer {
+  position: absolute;
+  top: 167px;
+  left: 32px;
+  letter-spacing: -0.01em;
+  width: 130px;
+  height: 48px;
+  font-size: var(--font-size-xl);
+}
+.search,
+.trnKhoaIdContainer,
+.u,
+.w {
+  line-height: 150%;
+  display: inline-block;
+}
+.search {
+  position: absolute;
+  top: 257px;
+  left: 171px;
+  font-size: var(--font-size-base);
+  letter-spacing: -0.01em;
+  font-weight: 500;
+  color: var(--color-gray-300);
+  text-align: center;
+  width: 100px;
+  height: 28px;
+}
+.u,
+.w {
+  letter-spacing: -0.02em;
+  height: 91.82px;
+}
+.u {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 108.45px;
+}
+.w {
+  top: 11.38px;
+  left: 39.88px;
+  width: 96.83px;
+}
+.c,
+.uParent,
+.w {
+  position: absolute;
+}
+.c {
+  top: 26.63px;
+  left: 19.94px;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  display: inline-block;
+  width: 63.31px;
+  height: 91.82px;
+}
+.uParent {
+  top: 22px;
+  left: 25px;
+  width: 136.71px;
+  height: 118.45px;
+  font-size: var(--font-size-45xl);
+  font-family: var(--font-merriweather);
+}
+.infor {
+  position: relative;
+  width: 442px;
+  height: 285px;
+  font-size: 32px;
+  color: var(--color-white);
+}
+.communication {
+  position: relative;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-azure);
+  width: 100%;
+  height: 1659px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-3xs);
+  color: var(--color-gray-500);
+  font-family: var(--font-inter);
+}

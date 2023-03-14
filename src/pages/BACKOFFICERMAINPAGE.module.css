@@ -1,0 +1,49 @@
+.backOfficerMainPageChild,
+.backOfficerMainPageItem {
+  position: absolute;
+  top: 123px;
+  left: 495px;
+  border-radius: var(--br-9xl);
+  background-color: var(--color-aquamarine);
+  width: 586px;
+  height: 426px;
+}
+.backOfficerMainPageItem {
+  top: 571px;
+  height: 121px;
+}
+.backOfficerMainPageInner {
+  position: absolute;
+  top: 587px;
+  left: 474px;
+  border-radius: 26px;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 557px;
+  height: 121px;
+}
+.urbanWaste {
+  margin: 0;
+}
+.urbanWasteCollectionContainer {
+  position: absolute;
+  top: 30px;
+  left: 1056px;
+  letter-spacing: -0.01em;
+  line-height: 150%;
+  display: inline-block;
+  width: 293px;
+  height: 80px;
+}
+.backOfficerMainPage {
+  position: relative;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-azure);
+  width: 100%;
+  height: 932px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

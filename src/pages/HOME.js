@@ -62,7 +62,34 @@ const HOME = () => {
           size="medium"
           margin="none"
         />
-        <div className={styles.username}>Username</div>
+        <div className={styles.filledWithIcon}>
+          <div className={styles.input}>
+            <div className={styles.activeState}>
+              <div className={styles.content}>
+                <div className={styles.adornment}>
+                  <img
+                    className={styles.removeredeyeIcon}
+                    alt=""
+                    src="/removeredeye.svg"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <img className={styles.underlineIcon} alt="" src="/underline.svg" />
+        </div>
+        <b className={styles.password}>Password</b>
+        <TextField
+          className={styles.inputfilled}
+          sx={{ width: 309 }}
+          color="primary"
+          variant="filled"
+          defaultValue="Input"
+          type="text"
+          label="Label"
+          size="medium"
+          margin="none"
+        />
       </div>
       <div className={styles.homeChild} />
     </div>
